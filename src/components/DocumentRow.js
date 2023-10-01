@@ -3,7 +3,7 @@ import React from 'react'
 import {HiDocumentText} from 'react-icons/hi'
 const DocumentRow = ({docs}) => {
   return (
-    <div className='my-4 bg-white max-w-[1200px] md:mx-auto mx-2 flex flex-col'>
+    <div className='my-4 bg-white max-w-[1200px] md:mx-auto mx-3 flex flex-col'>
       <div className='flex justify-between'>
       <p className='font-bold'>My Documents</p>
       <p className='font-bold'>Date Created</p>

@@ -34,7 +34,7 @@ const TextEditor = ({doc}) => {
       }, [doc]);
   return (
     <div className='bg-[whitesmoke] min-h-screen pb-1'>
-        <Editor    editorState={editorState}  onEditorStateChange={onEditorStateChange} toolbarClassName='flex mx-auto sticky top-0 z-[50] !justify-center pb-40 ' editorClassName='mt-6 bg-white shadow-lg max-w-6xl md:mx-auto mx-2 min-h-screen mb-2 p-2'/>
+        <Editor    editorState={editorState}  onEditorStateChange={onEditorStateChange} toolbarClassName='flex mx-auto sticky top-0 z-[50] !justify-center pb-40 ' editorClassName='mt-6 bg-white shadow-lg max-w-6xl md:mx-auto mx-3 min-h-screen mb-2 p-2'/>
     </div>
   )
 }
