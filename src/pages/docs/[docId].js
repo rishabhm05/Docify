@@ -6,7 +6,7 @@ import {db} from '../../../fireBase'
 import { useState,useEffect } from "react";
 import Link from 'next/link'
 import TextEditor from "@/components/TextEditor";
-const document =()=>{
+const Document =()=>{
 const router = useRouter()
 const{docId} = router.query;
 const { data: session } = useSession()
@@ -56,4 +56,4 @@ return(
     </div>
 )
 }
-export default document;
+export default Document;
